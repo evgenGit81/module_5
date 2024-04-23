@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 class House:
     def __init__(self):
-        self.name = "Big house"
+        self.numberOfFloors = 10
     def abouthouse(self):
         print("Пентхаус Трампа с девченками.")
 
 
 house = House()
-house.numberOfFloor = 0
-while house.numberOfFloor < 70:
-    house.numberOfFloor += 1
-    print(f"Текущий этаж равен {house.numberOfFloor}")
-    if house.numberOfFloor == 70:
-        house.abouthouse()
+numFloor = 0
+for i in range(house.numberOfFloors):
+    numFloor = i + 1
+    print(f"Текущий этаж равен {numFloor}")
+    if numFloor == 10:
+       house.abouthouse())
